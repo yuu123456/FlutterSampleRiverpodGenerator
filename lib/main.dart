@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_sample/my_widget_4.dart';
+import 'package:flutter_application_sample/my_widget_5.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
-
 }
 
 class MyHomePage extends StatefulWidget {
@@ -45,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [Icon(Icons.create), Text("初めてのタイトル")],
             )),
         body: const Center(
-          child: MyWidget4(),
+          child: MyWidget5(),
         ));
   }
 }
